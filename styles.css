@@ -1,0 +1,201 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #1f2833;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .logo {
+    margin-left: 20px;
+    max-width: 100px;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.header nav ul li {
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #c5c6c7;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #1f2833;
+    color: #66fcf1;
+    text-align: center;
+    padding: 150px 20px 50px;
+    width: 100%;
+}
+
+.hero .btn {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hero .btn:hover {
+    background-color: #45a29e;
+}
+
+.about, .plans-section, .testimonials, .contact {
+    width: 80%;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.about img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.about iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin-top: 20px;
+}
+
+.plans-section h2 {
+    font-size: 32px;
+    color: #c5c6c7;
+    margin-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background: linear-gradient(145deg, #1f2833, #3f4a5b);
+    padding: 30px 20px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #66fcf1;
+}
+
+.plan .benefits {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.plan .benefits hr {
+    border: 0;
+    height: 1px;
+    background-color: #c5c6c7;
+    margin: 10px 0;
+}
+
+.plan p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.plan .price {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #66fcf1;
+}
+
+.plan .btn {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.plan .btn:hover {
+    background-color: #45a29e;
+}
+
+.testimonials .testimonial {
+    background-color: #1f2833;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.footer {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer .social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    color: #c5c6c7;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #66fcf1;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
